@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    background: url(images/paintbg.jpg) center center fixed;
+    background-size: cover;
+
+}
+
+/* Title */
+#header {
+    background: linear-gradient(white, rgba(67, 169, 220, 0.9));
+    height: 80px;
+    width: 500px;
+    margin: 10px auto;
+    font-size: 3em;
+    color: #fff;
+    line-height: 80px;
+}
+
+/* inputs container */
+#inputContainer {
+    width: 200px;
+    margin: 0 auto;
+}
+
+/* color, input, line thickness, slider */
+.inputs {
+    height: 30px;
+    font-size: 1.3em;
+}
+
+#slider {
+    margin: 10px auto;
+}
+
+#circle {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: #000;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#thicknessInput {
+    position: relative;
+}
+
+/* Canva container */
+#container {
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgba(122, 174, 229, 0.5);
+    margin: 10px auto;
+}
+
+#paint {
+    background-color: #fff;
+    cursor: crosshair;
+}
+
+/* Input Container 2 */
+.inputContainer2 {
+    width: 399px;
+    margin: 0 auto;
+}
+
+/* erase,save & reset buttons */
+.inputs2 {
+    width: 133px;
+    color: #ffffff;
+    font-size: 1.3em;
+    float: left;
+}
+
+.button {
+    background: rgb(80, 109, 238);
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 4px rgb(80, 109, 238, 0.8);
+    transition: all 0.5s ease-in-out;
+    position: relative;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: rgb(80, 109, 238);
+    box-shadow: none;
+}
+
+.button:active {
+    top: 4px;
+}
+.eraseMode{
+    background-color:red;
+    color:white;
+}
